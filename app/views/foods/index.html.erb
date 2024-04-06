@@ -11,7 +11,7 @@
   <h2 class="text-center">Unpublished menu items</h2>
   <% if restaurant_signed_in? %>
   <ul>
-    <% @foods.each do |food| %>
+    <% @current_restaurant.foods.each do |food| %>
 
     <div class="food-card d-flex p-2" style="width: 380px;">
       <%# <div class="card-food-index"> %>

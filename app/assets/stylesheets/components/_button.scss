@@ -4,13 +4,21 @@
   align-items: center;
 }
 
-btn-positive {
+.btn-positive {
   width: 190px;
   background-color: #f8e0a9;
   text-decoration: none;
   color: black;
   border: 1px solid #ffc107;
   border-radius: 5px;
+}
+
+.btn-negative {
+  padding: 5px;
+  background-color: #f6680f;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #f88e43;
 }
 
 a.btn-positive {
