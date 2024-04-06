@@ -60,7 +60,7 @@
               <li id="food-description">Description: <%= food.description%> </li>
                 <%= link_to "Add to cart", food_order_lines_path(food), data: { turbo_method: :post }, class: "add-cart-btn" %>
 
-                <%= link_to "Details", food_path(food) %>
+                <%= link_to "Details", food_path(food), class: "add-cart-btn" %>
             </div>
           </div>
         </div>
